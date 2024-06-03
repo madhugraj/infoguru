@@ -52,7 +52,7 @@ def clear_input():
 
 def main():
     # Add a logo and set up the layout
-    logo_file = r'infoguru.png'
+    logo_file = r'infoguruu.png'
     if logo_file:
         with open(logo_file, "rb") as image_file:
             logo_base64 = base64.b64encode(image_file.read()).decode("utf-8")
